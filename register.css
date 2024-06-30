@@ -1,0 +1,78 @@
+@import url(*http://fonts.googleapis.com/css?family=Montserrat:400,800);
+*{
+    box-sizing: border-box;
+}
+body{
+    background:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat',sans-serif;
+    height:70%;
+    margin: -20px 0 50px;
+    background: url(https://www.icltours.com/img/car/1_large.jpg)no-repeat center/cover;
+    /* background-color: #494D5F; */
+}
+.register{
+    display:-ms-grid;
+    justify-content: space-around;
+    text-align:center;
+    color:solid black;
+}
+.field{
+    border-radius: 10px;
+   box-shadow: 10px 10px 10px 10px black;
+   backdrop-filter: blur(8px);
+   
+  
+}
+form {
+   width: 150%;
+    color:black;
+    margin-top: 50px;
+    height: 500px;
+      margin-top: 142px;
+   margin-left: -120px;
+   margin-right: 80px;
+   
+}
+button{
+    border-radius: 5px;
+    width: 20%;
+    height: 30px;
+}
+input{
+    height: 40px;
+    margin-top: 17px;
+    width: 50%;
+    border-radius: 5px;
+    border:solid rgb(243, 241, 241);
+}
+h1{
+    text-align: center;
+    color: black;
+}
+#pn{
+    margin-right: 30px;
+}
+#add{
+    margin-right: 20px;
+}
+#pwd{
+    margin-right: 22px;
+}
+#cpwd{
+    margin-right: 83px;
+}
+#button{
+    color: black;
+    font-size: 20px;
+}
+button{
+   height: 43px; 
+}
+#button:hover{
+    color: white;
+    font-size: 21px;
+}

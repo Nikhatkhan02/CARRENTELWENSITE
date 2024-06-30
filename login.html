@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>home</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+
+<body>
+    <div id="first">
+        <form >
+            <fieldset class="field">
+                <h1>Login </h1>
+                <div class="login">
+                    <b>Name:</b><input type="text" name="name" placeholder="Your name"><br> 
+                   <b>E-mail:</b> <input type="email" placeholder="E-mail"><br>
+                    <div class="password"><b>Password:</b> <input type="password" placeholder="password"></div><br>
+                    <button  style="background-color: lightgreen;" ><a href="index.html" ><b>Submit</b></a></button><br>
+                   <a href="register.html">Create new Account</a>
+                </div>
+            </fieldset>
+        </form>
+<div class="right">
+   <h1 id="text"></h1>
+</div>
+    </div>
+    <!-- <script>
+        function myfunction() {
+            var txt;
+            if (confirm("Conformation popup")) {
+                txt = "Welcome";
+            } else {
+                txt = "you cancel the login!";
+            }
+            document.getElementById("demo").innerHTML = txt;
+        } 
+    </script> -->
+    </div>
+   <script>
+    const text = "Hey there ! Need a car? Rent or buy.We've got your back.Let's find your perfact ride together...";
+    let index = 0;
+    function typeText(){
+        document.getElementById('text').textContent = text.slice(0,index);
+        index++;
+        if(index <=text.length){
+            setTimeout(typeText, 25);
+        }
+    }
+    typeText();
+   </script>
+  
+</body>
+
+</html>
