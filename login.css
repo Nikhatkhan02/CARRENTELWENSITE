@@ -105,7 +105,10 @@ input{
 button{
     border-radius: 5px;
     width: 20%;
-    height: 30px;
+    height: 30px; 
+}
+.button{
+    color: black;
 }
 form h1 {
     font-size: 60px;
