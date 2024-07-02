@@ -44,6 +44,7 @@
             background-color: rgba(0, 0, 0, 0.973);
             color: rgb(51, 34, 34);
             position: fixed;
+            
         }
         nav ul {
             margin: 0;
@@ -51,22 +52,31 @@
         }
         
         nav li {
-            display: inline;
-            float: left;
+            display:inline-flex;
+    
+          text-align: center;
+        
         }
         
         nav a {
-            display: inline-block;
+            justify-content: space-around;
+            display:flex;
+            align-items: right;
             width: 150px;
-            text-align: center;
+            text-align: right;
             text-decoration: none;
             padding: 10px 0;
             color: #eee;
+           
         }
         
         nav li:hover {
             background-color: gray;
         }
+        /* #navbar{
+           margin-left: 100px;
+        } */
+        
     </style>
 </head>
 <body>
@@ -75,15 +85,15 @@
             <nav class="cf">
                 <ul class="cf">
                     <li>
-                        <a href="first.html">Home</a>
+                        <a href="first.html" id="navbar">Home</a>
                     </li>
 
                     <li>
-                        <a href="index.html">Used cars</a>
+                        <a href="index.html" id="navbar">Used cars</a>
                     </li>
 
                     <li>
-                        <a href="forgot.html">New cars</a>
+                        <a href="forgot.html" id="navbar">New cars</a>
                     </li>
                 </ul>
             </nav>
