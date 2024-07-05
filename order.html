@@ -90,15 +90,26 @@
         }
         
         fieldset {
-            width: 30%;
+            width: 100%;
             text-align: center;
             background-color: rgb(214, 132, 132);
             color: black;
         }
-        
+        .login{
+            padding: 10px;
+            font-size: 20px;
+        }
         .login input ::placeholder {
             font-family: cursive;
+            
         }
+       #name{
+        margin-left: 20px;
+       }
+       button{
+        margin-top: 20px;
+        font-size: 15px;
+       }
     </style>
 </head>
 
@@ -108,11 +119,11 @@
             <fieldset class="field" style="border-color: white;">
                 <h1 style="font-family: cursive;">SHOP NOW</h1>
                 <div class="login" style="font-family: cursive;">
-                    Name:<input type="text" name="name" placeholder="Your name"><br> Number:
-                    <input type="text" placeholder="Number"><br> Address:
-                    <input type="text" placeholder="Address"><br> Password
-                    <input type="password" placeholder="Necessary for order"><br>
-                    <button onclick="myfunction()" style="background-color: lightgreen;"><a style="color: black; font-family: cursive;">submit</a></button>
+                   Name:<input id="name" type="text" name="name" placeholder="Your name"><br>
+                     Number:<input type="text" placeholder="Number"><br> 
+                     Address:<input type="text" placeholder="Address"><br>
+                     Password:<input type="password" placeholder="Necessary for order"><br>
+                    <button onclick="myfunction()" style="background-color: lightgreen;"><a href="first.html" style="color: black; font-family: cursive;">submit</a></button>
                 </div>
             </fieldset>
         </form>
