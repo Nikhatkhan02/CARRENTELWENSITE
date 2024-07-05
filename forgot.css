@@ -33,7 +33,9 @@ nav {
     color: rgb(51, 34, 34);
     position: fixed;
 }
-
+.nav-item{
+    margin-left: 40%;
+}
 #showcase .container {
     margin-top: 25vh;
 }
